@@ -1,0 +1,316 @@
+/*
+Theme Name: LIDAN
+Theme URI: http://ldlidan.com
+Description: 一个简单的博客主题
+Version: 4.0
+Author:LD
+Tags: 前端 WordPress
+*/
+.clearfix:after{
+	content: ".";
+	display: block;
+    clear: both;
+
+}
+/* 页头 */
+header{
+    height: 56px;
+    position: relative;
+}
+
+
+/* 页面内容 */
+.ld-wrapper{
+    background:#61c0bf;
+    min-height: 600px;
+}
+/* 导航栏 */
+.ld-logo-margin{
+    margin-left:20px;
+    font-size: 20px;
+   
+}
+.ld-ul-margin{
+    position: absolute;
+    right: 20px;
+}
+
+/* 技能展示盒子 */
+.skills-group{
+    height: 250px;
+    background: #606470;
+    /* position: relative; */
+}
+.skill1,.skill2,.skill3,.skill4{
+    /* position: absolute; */
+    height:100%;
+    overflow: hidden;
+    width: 7%;
+    margin-left: 50px;
+    /* position: relative; */
+    display: inline-block;
+    text-align: center;
+}
+.show-num{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    height: 15%;
+    width:100%;
+}
+.skill2 .show-num{
+    margin-top: 13px;
+}
+.skill3 .show-num{
+    margin-top: 50px;
+}
+.skill4 .show-num{
+    margin-top: 74px;
+}
+.show-block{
+    width: 20%;
+    margin:0 auto;
+    left:10px;
+    /* position: absolute;
+
+    bottom: 30px; */
+}
+.skill1 .show-block{
+    height: 70%;
+    background: #ff4057;
+}
+.skill2 .show-block{
+    height: 65%;
+    background: #33bea0;
+}
+.skill3 .show-block{
+    height: 50%;
+    background: #e76655;
+}
+.skill4 .show-block{
+    height: 40%;
+    background: #387ec0;
+}
+
+.show-skill{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    /* position: absolute;
+    bottom: 0; */
+}
+.row{
+    padding-top:30px;
+}
+
+
+/* 文章模块 */
+.card{
+    margin:20px;
+}
+
+.ld-li-margin{
+    margin-right: 10px;
+}
+.ld-color{
+    color:#fff;
+}
+.ld-photo{
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.tag{
+    border-radius: 5px;
+    background: #ff4057;
+    padding: 5px;
+    margin:5px 10px;
+    display: inline-block;
+}
+
+.sidebar{
+    background: rgba(255,255,255,0.5);
+}
+.sidebar h4{
+    text-align: center;
+    background: #fff;
+    color: #333;
+    /* text-align: center; */
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.my-info{
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+.search{
+    margin: 20px;
+}
+.search-text{
+    float: left;
+    height: 100%;
+    width: 70%;
+    border:none;
+    padding-left: 10px;
+}
+.search-submit{
+    float: left;
+    height:100%;
+    width: 25%;
+    border:none;
+    background: #ff4057;
+    color: #fff;
+}
+.search form{
+    height:40px;
+}
+.dynamic-sidebar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.dynamic-sidebar ul li{
+    padding: 10px 20px;
+    border-bottom: 1px solid #fff;
+}
+.dynamic-sidebar ul a{
+    text-decoration: none;
+    color: #333;
+    
+}
+
+/* 页脚 */
+.back-to-up{
+    position: fixed;
+    bottom: 0;
+    right:10px;
+    border:none;
+}
+
+
+
+.wrap-404{
+    height:600px;
+    margin-top: 60px;
+}
+
+
+.liked{ 
+    font-size:30px;  
+    color:#ccc;
+     cursor:pointer;
+} /*原始样式*/
+.cs{
+    color:#f00;
+}/*点击后出现样式*/
+
+
+
+
+/* 留言区样式 */
+.message-title{
+    color: #606470;
+    background: #fff;
+    padding: 10px;
+
+}
+
+.message-text{
+    width: 20%;
+    margin-bottom: 30px;
+    border:none;
+}
+.message-area{
+    width: 60%;
+    margin-bottom: 30px;
+    border:none;
+}
+
+.message-form{
+    margin:50px 0;
+
+}
+
+
+/* 留言楼 */
+.message{
+    background:rgba(255,255,255,0.3);
+}
+.floor{
+    background: #fff;
+    margin: 20px;
+}
+.floor h5{
+    background: #4aa8b4;
+    color: #fff;
+    margin:0;
+    padding-left: 20px;
+    
+}
+.floor .username{
+   width: 20%;
+   text-align: center;
+   float: left;
+   height: 100%;
+   line-height: 100%;
+}
+.floor p{
+    display: inline-block;
+    padding: 10px;
+    width: 80%;
+    margin: 0;
+    border-left:2px solid #606470;
+}
+.floor-time{
+    background: #fff;
+}
+.floor-time span{
+    margin-left: 80%;
+}
+
+.message-btn{
+    margin-left:60%;
+    border:none;
+    background: #f00;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+}
+
+
+
+
+
+/* 搜索页面 */
+.search-box{
+    padding-top:30px;
+}
+.search-post{
+    padding: 20px;
+    background: rgba(255,255,255,0.3);
+    border-left:5px solid #fff;
+}
+
+.search-post a{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.search-time{
+    height: 40px;
+    line-height: 40px;
+    color:#fff;
+    font-size: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+.search-form{
+    margin:40px auto;
+    width: 40%;
+}
+
+
+
